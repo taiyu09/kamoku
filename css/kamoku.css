@@ -5,18 +5,34 @@ body {
 	background: black;
 	background: url("../img/bg.jpg");
 	color: black;
+	overflow: hidden
 }
 
 .box{
 	margin:0 auto;
-	width: 90%;
-	height: 85%;
+	width: 70%;
+	height: 80vh;
 	background: white;
 	margin-top: 5%;
     margin-bottom: 5%;
+	border: solid 3px silver;
+	border-radius: 10px;
+}
+h1{
+	font-size: 40px;
+	text-shadow: 3px 3px rgba(0,0,0,0.2);
+}
+.pos{
+	margin-left: 12px;
+	font-size: 12px;
+	text-align: left;
+}
+.pos a{
+	font-size: 12px;
 }
 .flex{
 	display: flex;
+	height: 60%;
 }
 .txtbox{
 	width: 60%;
@@ -24,7 +40,18 @@ body {
 .imgbox{
 	margin: 0 auto;
 }
+img{
+	margin:0 auto;
+}
+#jimg{
+	width: auto;
+	height: 100%;
+}
+#gimg{
+	width: auto;
+	height: 100%;
+}
 #limg{
-	width: 30%;
-	height: 30%;
+	width: auto;
+	height: 100%;
 }
